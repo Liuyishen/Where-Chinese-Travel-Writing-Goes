@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Where Chinese Travel Writing Goes: Place, Mobility, and Cultural Imagination, 1980–2025"
+type: dataset
+authors:
+  - family-names: "Liu"
+    given-names: "Yishen"
+date-released: 2026-09-16
+license: "CC-BY-4.0"
+abstract: "A reproducible metadata and place-evidence workflow for Chinese-language travel writing published in mainland China."
+keywords:
+  - digital humanities
+  - Chinese literature
+  - travel writing
+  - literary geography
+  - cultural data

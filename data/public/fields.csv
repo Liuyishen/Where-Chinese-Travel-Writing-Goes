@@ -1,0 +1,18 @@
+field,description
+record_id,Stable REC identifier
+text_id,Textual entity identifier
+source_id,Parent source identifier
+stat_year,Conservative analysis year
+stat_decade,Conservative analysis decade
+title,Piece title
+author,Named author
+parent_source,Parent source or carrier
+carrier,Publication information
+genre,Normalized writing type
+destination_or_route,Place or route label
+geographic_scope,Domestic overseas or cross-border label
+travel_strength,Travel evidence strength
+verification_grade,Verification grade
+access_status,Access status
+rights_status,Rights status
+source_url,Public source URL when appropriate
