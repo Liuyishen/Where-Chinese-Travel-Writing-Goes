@@ -11,6 +11,8 @@
 | `data/public/fields.csv` | 可发布 CSV 的字段定义 |
 | `scripts/build_public_metadata.py` | 从私有工作簿生成元数据公开版 |
 | `scripts/validate_public_release.py` | 提交前检查公开目录中的敏感内容 |
+| `scripts/build_rq1_public_release.py` | 从私有 RQ1 工作簿生成可公开的聚合结果 |
+| `docs/rq1_place_visibility.md` | RQ1 的当前证据、分母与解释边界 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
@@ -23,6 +25,9 @@
 | `data/public/corpus_metadata_public.csv` | 不含正文、摘要、页图或登录信息；逐批确认来源条款后提交 |
 | `outputs/public/coverage_by_country_or_region.csv` | 仅发布聚合统计，确认不含未核 C 类线索 |
 | `outputs/public/coverage_by_china_region.csv` | 同上 |
+| `data/public/rq1_fulltext_by_decade.csv` | 仅发布全文层按年代的聚合计数，不含原文或证据定位 |
+| `data/public/rq1_repeated_places.csv` | 仅发布跨文本地点的实体级计数，不含逐篇关系 |
+| `data/public/rq1_bibliographic_signals_by_decade.csv` | 独立发布书目地点信号层的聚合计数，不与全文层合并 |
 
 ## 不要上传
 

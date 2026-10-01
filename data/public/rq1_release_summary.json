@@ -1,0 +1,15 @@
+{
+  "release_date": "2026-10-01",
+  "fulltext_layer": {
+    "verified_texts": 106,
+    "text_place_relations": 396,
+    "normalized_place_entities": 357,
+    "repeated_place_entities": 30,
+    "rights_boundary": "Counts derive from manually coded, quote_only research records; no full texts are released."
+  },
+  "bibliographic_layer": {
+    "metadata_place_signals": 1091,
+    "specific_place_or_route_signals": 603,
+    "rights_boundary": "Bibliographic signals are metadata_only and uncertain. They are not author-visit points and are never combined with full-text relation counts."
+  }
+}

@@ -9,6 +9,7 @@ The project is research infrastructure, not a collection of full texts. It separ
 ## Public contents
 
 - A documented data model and controlled vocabularies.
+- A disclosure-safe RQ1 place-visibility snapshot, with separate full-text and bibliographic-signal aggregates.
 - Scripts for making a metadata-only public release from a private workbook.
 - A reproducible workflow for identifiers, deduplication, and place evidence.
 - Citation information and a release checklist.
@@ -31,3 +32,7 @@ python3 scripts/validate_public_release.py
 ```
 
 Review the generated CSV before committing. See [`PUBLISH_MANIFEST.md`](PUBLISH_MANIFEST.md) and [`CITATION.cff`](CITATION.cff).
+
+## Current RQ1 snapshot
+
+The current public release records 106 manually coded texts, 396 text–place relations, and 357 normalized place entities. The larger bibliographic layer contains 1,091 place signals, including 603 specific-place or route signals. These are deliberately separate analytical layers: see [the RQ1 note](docs/rq1_place_visibility.md) and `data/public/`.
