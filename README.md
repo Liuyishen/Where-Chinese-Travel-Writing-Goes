@@ -35,4 +35,4 @@ Review the generated CSV before committing. See [`PUBLISH_MANIFEST.md`](PUBLISH_
 
 ## Current RQ1 snapshot
 
-The current public release records 106 manually coded texts, 396 text–place relations, and 357 normalized place entities. The larger bibliographic layer contains 1,091 place signals, including 603 specific-place or route signals. These are deliberately separate analytical layers: see [the RQ1 note](docs/rq1_place_visibility.md) and `data/public/`.
+The current public release records 106 manually coded texts, 396 text–place relations, and 357 normalized place entities. The larger bibliographic layer contains 1,091 place signals, including 603 specific-place or route signals. These are deliberately separate analytical layers: see [the RQ1 note](docs/rq1_place_visibility.md), [the current findings](docs/rq1_findings_20261002.md), and `data/public/`.

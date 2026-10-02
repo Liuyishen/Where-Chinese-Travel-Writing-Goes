@@ -18,3 +18,10 @@ __pycache__/
 *.jpeg
 *.tmp
 outputs/private/
+website/node_modules/
+website/.next/
+website/.wrangler/
+website/dist/
+website/next-env.d.ts
+website/package-lock.json
+website/tsconfig.tsbuildinfo

@@ -33,6 +33,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--fulltext", required=True, type=Path)
     parser.add_argument("--metadata", required=True, type=Path)
+    parser.add_argument("--places", required=True, type=Path)
+    parser.add_argument("--atomics", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -88,6 +90,27 @@ def main():
         repeated,
     )
 
+    place_book = load_workbook(args.places, read_only=True, data_only=True)
+    place_rows = list(rows(place_book["地点主表_357"]))
+    map_points = [{
+        "place_id": row["place_id"],
+        "normalized_place": row["规范地点名"],
+        "country_or_region": row["国家地区"],
+        "entity_type": row["实体类型"],
+        "longitude": row["经度"],
+        "latitude": row["纬度"],
+        "text_count": row["关联文本数"],
+        "author_count": row["独立作者数"],
+        "visited_text_count": row["visited文本数"],
+        "geometry_status": "osm_candidate_pending_human_review",
+    } for row in place_rows if row["地图准入"] == "point_layer_yes"]
+    map_points.sort(key=lambda row: (-int(row["text_count"]), row["normalized_place"] or ""))
+    write_csv(
+        args.output_dir / "rq1_candidate_map_points.csv",
+        ["place_id", "normalized_place", "country_or_region", "entity_type", "longitude", "latitude", "text_count", "author_count", "visited_text_count", "geometry_status"],
+        map_points,
+    )
+
     metadata_book = load_workbook(args.metadata, read_only=True, data_only=True)
     metadata_era_rows = list(rows(metadata_book["年代证据结构"]))
     metadata_eras = [{
@@ -104,6 +127,20 @@ def main():
         metadata_eras,
     )
 
+    atomic_book = load_workbook(args.atomics, read_only=True, data_only=True)
+    atomic_rows = list(rows(atomic_book["原子组件结构"]))
+    atomic_summary = [{
+        "component_kind": row["组件类别"],
+        "entity_readiness": row["逐实体就绪度"],
+        "component_count": row["原子组件数"],
+        "interpretation_boundary": "Rule-based split only; not a normalized place entity or an author-visit relation.",
+    } for row in atomic_rows]
+    write_csv(
+        args.output_dir / "rq1_bibliographic_atomic_components.csv",
+        ["component_kind", "entity_readiness", "component_count", "interpretation_boundary"],
+        atomic_summary,
+    )
+
     summary = {
         "release_date": "2026-10-01",
         "fulltext_layer": {
@@ -111,11 +148,13 @@ def main():
             "text_place_relations": len(relation_rows),
             "normalized_place_entities": len(entity_rows),
             "repeated_place_entities": len(repeated),
+            "candidate_map_points": len(map_points),
             "rights_boundary": "Counts derive from manually coded, quote_only research records; no full texts are released.",
         },
         "bibliographic_layer": {
             "metadata_place_signals": sum(row["metadata_place_signals"] for row in metadata_eras),
             "specific_place_or_route_signals": sum(row["specific_place_or_route_signals"] for row in metadata_eras),
+            "atomic_components": sum(int(row["component_count"]) for row in atomic_summary),
             "rights_boundary": "Bibliographic signals are metadata_only and uncertain. They are not author-visit points and are never combined with full-text relation counts.",
         },
     }

@@ -11,6 +11,8 @@ for path in ROOT.rglob("*"):
     if not path.is_file() or ".git" in path.parts:
         continue
     relative = path.relative_to(ROOT)
+    if any(part in {"node_modules", ".next", ".wrangler", "dist"} for part in relative.parts):
+        continue
     if relative.parts[:2] == ("data", "private"):
         continue
     name = path.name.lower()

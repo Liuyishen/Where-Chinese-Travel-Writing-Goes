@@ -1,0 +1,7 @@
+component_kind,entity_readiness,component_count,interpretation_boundary
+geographic_entity_candidate,candidate_for_manual_disambiguation,549,Rule-based split only; not a normalized place entity or an author-visit relation.
+geographic_entity_candidate,needs_manual_split,93,Rule-based split only; not a normalized place entity or an author-visit relation.
+place_cue_candidate,candidate_for_manual_disambiguation,851,Rule-based split only; not a normalized place entity or an author-visit relation.
+context_or_route_action,no,11,Rule-based split only; not a normalized place entity or an author-visit relation.
+non_place_route_action,no,1,Rule-based split only; not a normalized place entity or an author-visit relation.
+place_cue_candidate,needs_manual_split,128,Rule-based split only; not a normalized place entity or an author-visit relation.

@@ -15,11 +15,17 @@ The public release distinguishes two non-interchangeable layers.
 
 The layers are released as separate CSV files and must not be added together. A bibliographic cue is always `uncertain`/`metadata_only`; it does not show that its author visited the named place.
 
+The 603 specific bibliographic signals have been rule-split into 1,633 atomic components. This is a retrieval and audit aid: it separates composite cues into reviewable components, but does not by itself normalize them into geographic entities or make them eligible for the full-text map.
+
 ## What is currently comparable
 
 The full-text layer has an initial descriptive floor of 20 coded texts in each decade from the 1980s through the 2010s, and 25 in the 2020s. The associated CSV reports the denominator and relation-state counts for each decade. It is a deliberately constructed research sample, not a random sample of all Chinese travel writing published from 1980 to 2025.
 
 The repeated-place table retains only entities occurring in two or more texts. It reports both text and author counts so that a recurrence created by one prolific writer is not mistaken for cross-author visibility.
+
+## Map boundary
+
+`rq1_candidate_map_points.csv` provides 68 point-geometry candidates whose normalized name, country/region, and point-type classification are compatible with an existing OpenStreetMap candidate. They are suitable for a clearly labelled candidate layer, not a definitive map: routes, rivers, mountains, countries, and regions remain line or polygon entities, and no centre point is invented for them. Every coordinate remains subject to human spatial review.
 
 ## Interpretation boundary
 
@@ -33,6 +39,8 @@ From the private research workbooks, run:
 python3 scripts/build_rq1_public_release.py \
   --fulltext /path/to/RQ1_地点可见性更新_106篇_20261001.xlsx \
   --metadata /path/to/大池子_metadata_places与RQ1双层分析_20260929.xlsx \
+  --places /path/to/RQ1_地点主表_空间就绪与可见性指标_106篇_20261001.xlsx \
+  --atomics /path/to/大池子_原子地点RQ1与全文追索队列_20260929.xlsx \
   --output-dir data/public
 python3 scripts/validate_public_release.py
 ```

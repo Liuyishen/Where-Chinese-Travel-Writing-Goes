@@ -13,6 +13,7 @@
 | `scripts/validate_public_release.py` | 提交前检查公开目录中的敏感内容 |
 | `scripts/build_rq1_public_release.py` | 从私有 RQ1 工作簿生成可公开的聚合结果 |
 | `docs/rq1_place_visibility.md` | RQ1 的当前证据、分母与解释边界 |
+| `docs/rq1_findings_20261002.md` | RQ1 当前档案层结论与审计边界 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
@@ -28,6 +29,8 @@
 | `data/public/rq1_fulltext_by_decade.csv` | 仅发布全文层按年代的聚合计数，不含原文或证据定位 |
 | `data/public/rq1_repeated_places.csv` | 仅发布跨文本地点的实体级计数，不含逐篇关系 |
 | `data/public/rq1_bibliographic_signals_by_decade.csv` | 独立发布书目地点信号层的聚合计数，不与全文层合并 |
+| `data/public/rq1_candidate_map_points.csv` | 仅发布明确标为待人工复核的点状候选，不替代线面实体 |
+| `data/public/rq1_bibliographic_atomic_components.csv` | 发布规则原子化汇总，不将组件误作规范地名或旅行足迹 |
 
 ## 不要上传
 
