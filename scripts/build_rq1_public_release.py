@@ -158,7 +158,7 @@ def main():
             "normalized_place_entities": len(entity_rows),
             "repeated_place_entities": len(repeated),
             "candidate_map_points": len(map_points),
-            "rights_boundary": "Counts derive from manually coded, quote_only research records; no full texts are released.",
+            "rights_boundary": "Counts derive from manually coded research records; no full texts are released. Internal analysis permission, where present, is not a public redistribution licence.",
         },
         "bibliographic_layer": {
             "metadata_place_signals": sum(row["metadata_place_signals"] for row in metadata_eras),
