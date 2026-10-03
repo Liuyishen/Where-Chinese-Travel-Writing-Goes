@@ -1,11 +1,11 @@
 {
   "release_date": "2026-10-03",
   "fulltext_layer": {
-    "verified_texts": 105,
-    "text_place_relations": 400,
-    "normalized_place_entities": 364,
-    "repeated_place_entities": 29,
-    "candidate_map_points": 68,
+    "verified_texts": 107,
+    "text_place_relations": 410,
+    "normalized_place_entities": 372,
+    "repeated_place_entities": 30,
+    "candidate_map_points": 83,
     "rights_boundary": "Counts derive from manually coded, quote_only research records; no full texts are released."
   },
   "bibliographic_layer": {
