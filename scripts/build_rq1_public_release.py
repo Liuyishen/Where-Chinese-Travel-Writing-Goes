@@ -22,6 +22,14 @@ def rows(sheet):
             yield dict(zip(headers, values))
 
 
+def sheet_by_prefix(workbook, prefix):
+    """Use the current canonical sheet without hard-coding a row-count suffix."""
+    matches = [name for name in workbook.sheetnames if name.startswith(prefix)]
+    if len(matches) != 1:
+        raise ValueError(f"Expected exactly one sheet beginning {prefix!r}, found {matches!r}")
+    return workbook[matches[0]]
+
+
 def write_csv(path, fieldnames, records):
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
@@ -36,18 +44,18 @@ def main():
     parser.add_argument("--places", required=True, type=Path)
     parser.add_argument("--atomics", required=True, type=Path)
     parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--release-date", default="2026-10-03")
     args = parser.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     fulltext_book = load_workbook(args.fulltext, read_only=True, data_only=True)
-    relation_rows = list(rows(fulltext_book["正文关系_396"]))
-    entity_rows = list(rows(fulltext_book["实体主表_357"]))
+    relation_rows = list(rows(sheet_by_prefix(fulltext_book, "规范关系_")))
 
     by_era = defaultdict(lambda: {"text_ids": set(), "relations": 0, "states": Counter()})
     for row in relation_rows:
         era = row["年代"] or "未定"
         bucket = by_era[era]
-        bucket["text_ids"].add(row["text_id"])
+        bucket["text_ids"].add(row.get("canonical_text_id") or row["text_id"])
         bucket["relations"] += 1
         bucket["states"][row["地点状态"]] += 1
 
@@ -72,11 +80,13 @@ def main():
         fulltext_eras,
     )
 
+    place_book = load_workbook(args.places, read_only=True, data_only=True)
+    entity_rows = list(rows(sheet_by_prefix(place_book, "地点主表_")))
     repeated = []
     for row in entity_rows:
         if (row["关联文本数"] or 0) >= 2:
             repeated.append({
-                "place_id": row["merged_place_id"],
+                "place_id": row["place_id"],
                 "normalized_place": row["规范地点名"],
                 "country_or_region": row["国家地区"],
                 "text_count": row["关联文本数"],
@@ -90,8 +100,7 @@ def main():
         repeated,
     )
 
-    place_book = load_workbook(args.places, read_only=True, data_only=True)
-    place_rows = list(rows(place_book["地点主表_357"]))
+    place_rows = entity_rows
     map_points = [{
         "place_id": row["place_id"],
         "normalized_place": row["规范地点名"],
@@ -142,9 +151,9 @@ def main():
     )
 
     summary = {
-        "release_date": "2026-10-01",
+        "release_date": args.release_date,
         "fulltext_layer": {
-            "verified_texts": len({row["text_id"] for row in relation_rows}),
+            "verified_texts": len({row.get("canonical_text_id") or row["text_id"] for row in relation_rows}),
             "text_place_relations": len(relation_rows),
             "normalized_place_entities": len(entity_rows),
             "repeated_place_entities": len(repeated),

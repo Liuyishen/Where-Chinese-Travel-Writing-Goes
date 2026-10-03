@@ -2,7 +2,7 @@
 
 This directory contains disclosure-safe aggregates from the current RQ1 place-visibility work. They are generated with `scripts/build_rq1_public_release.py` and contain no full texts, quotations, evidence locations, source URLs, or author/title-level rows.
 
-The 2026-10-01 release includes:
+The 2026-10-03 release includes canonical text-level deduplication and corrected source years. It reports 105 canonical texts, 400 canonical text–place relations, and 364 normalized entities. The raw historical identifiers remain private audit material and are not published here.
 
 - `rq1_fulltext_by_decade.csv`: counts for the manually coded text–place layer.
 - `rq1_repeated_places.csv`: normalized places occurring in at least two texts, without the underlying text rows.
