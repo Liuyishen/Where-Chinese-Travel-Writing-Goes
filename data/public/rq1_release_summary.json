@@ -8,6 +8,13 @@
     "candidate_map_points": 83,
     "rights_boundary": "Counts derive from manually coded research records; no full texts are released. Internal analysis permission, where present, is not a public redistribution licence."
   },
+  "semantic_hold_sensitivity": {
+    "held_relationships": 8,
+    "relations_after_exclusion": 479,
+    "repeated_place_entities_after_exclusion": 32,
+    "cross_author_repeated_entities_after_exclusion": 30,
+    "interpretation": "Removing the current semantic holds does not change the leading recurrent places or the archive-level finding that recurrence is sparse."
+  },
   "bibliographic_layer": {
     "metadata_place_signals": 1091,
     "specific_place_or_route_signals": 603,
