@@ -13,7 +13,7 @@
 | `scripts/validate_public_release.py` | 提交前检查公开目录中的敏感内容 |
 | `scripts/build_rq1_public_release.py` | 从私有 RQ1 工作簿生成可公开的聚合结果 |
 | `docs/rq1_place_visibility.md` | RQ1 的当前证据、分母与解释边界 |
-| `docs/rq1_findings_20261002.md` | RQ1 当前档案层结论与审计边界 |
+| `docs/rq1_findings_20261024.md` | RQ1 冻结档案的地点可见性结论、分母与审计边界 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
