@@ -26,7 +26,7 @@ The current denominators are 21 texts in the 1980s, 21 in the 1990s, 20 in the 2
 
 ## Map and review boundary
 
-The interactive map displays 161 relations for which the named entity has publishable geometry and the semantic screen recommends retention. Eight relationships are excluded as semantic holds, and line, polygon, ambiguous, or not-yet-publishable entities are not forced into points. Map records retain a pending human spatial-signoff label. The map is therefore a transparent display subset, not the denominator for the findings above.
+The interactive map displays 161 retained relations for which the named entity has publishable geometry and project-lead sign-off. Eight relationships are excluded as signed pauses, and line, polygon, ambiguous, or not-yet-publishable entities are not forced into points. The map is therefore a transparent display subset, not the denominator for the findings above.
 
 ## What absence means here
 
@@ -34,4 +34,4 @@ An entity absent from the frozen text layer may be absent from the archive becau
 
 ## Remaining work before a stronger Q1 claim
 
-The next audit step is to human-sign the spatial and semantic review queue, then run a sensitivity check that removes or recodes disputed relationships. A later, broader sampling frame is needed before making a four-decade population claim.
+The sign-off queue has been completed: 479 relations are retained and eight are paused. The next research step is a sensitivity analysis of author concentration and a broader comparable sampling frame before making a four-decade population claim.

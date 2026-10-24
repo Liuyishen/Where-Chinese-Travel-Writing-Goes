@@ -6,7 +6,7 @@
     "relationship_universe": 487,
     "paused_relationships_excluded": 8,
     "selection_rule": "analysis_permitted full-text relation; semantic review recommends keep; linked named place has a ready public geometry; no route line is inferred from separate point relations.",
-    "boundary": "Relation categories show textual evidence status; they do not independently prove a complete itinerary. Rows still awaiting human signature are labelled pending."
+    "boundary": "Relation categories show textual evidence status; they do not independently prove a complete itinerary. The current display subset carries project-lead sign-off; paused rows are excluded."
   },
   "features": [
     {
@@ -42,7 +42,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -79,7 +79,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -116,7 +116,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1779,7 +1779,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1816,7 +1816,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1853,7 +1853,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1890,7 +1890,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1927,7 +1927,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -1964,7 +1964,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -3827,7 +3827,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -3864,7 +3864,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -3901,7 +3901,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -3938,7 +3938,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -4519,7 +4519,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5236,7 +5236,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5273,7 +5273,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5494,7 +5494,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5531,7 +5531,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5636,7 +5636,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5805,7 +5805,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5842,7 +5842,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5879,7 +5879,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5916,7 +5916,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5953,7 +5953,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -5990,7 +5990,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6027,7 +6027,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6064,7 +6064,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6101,7 +6101,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6138,7 +6138,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6175,7 +6175,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6212,7 +6212,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6249,7 +6249,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6286,7 +6286,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6323,7 +6323,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6360,7 +6360,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6397,7 +6397,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6434,7 +6434,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6471,7 +6471,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6508,7 +6508,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6545,7 +6545,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6582,7 +6582,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -6619,7 +6619,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9210,7 +9210,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9247,7 +9247,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9284,7 +9284,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9321,7 +9321,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9358,7 +9358,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9395,7 +9395,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9432,7 +9432,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9469,7 +9469,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9506,7 +9506,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9543,7 +9543,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9580,7 +9580,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9617,7 +9617,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9654,7 +9654,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9691,7 +9691,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9848,7 +9848,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9885,7 +9885,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9922,7 +9922,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9959,7 +9959,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -9996,7 +9996,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10033,7 +10033,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10070,7 +10070,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10107,7 +10107,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10144,7 +10144,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10181,7 +10181,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10254,7 +10254,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10291,7 +10291,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10364,7 +10364,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10569,7 +10569,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10606,7 +10606,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10643,7 +10643,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10680,7 +10680,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10717,7 +10717,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10754,7 +10754,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10791,7 +10791,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10828,7 +10828,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -10865,7 +10865,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -11872,7 +11872,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12163,7 +12163,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12200,7 +12200,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12237,7 +12237,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12274,7 +12274,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12311,7 +12311,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12348,7 +12348,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12385,7 +12385,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12422,7 +12422,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12459,7 +12459,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12496,7 +12496,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12533,7 +12533,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12570,7 +12570,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12607,7 +12607,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12644,7 +12644,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12681,7 +12681,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12718,7 +12718,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -12755,7 +12755,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13062,7 +13062,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13099,7 +13099,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13136,7 +13136,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13173,7 +13173,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13210,7 +13210,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13247,7 +13247,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13284,7 +13284,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13321,7 +13321,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13358,7 +13358,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13395,7 +13395,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13432,7 +13432,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13469,7 +13469,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13506,7 +13506,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13543,7 +13543,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13580,7 +13580,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13617,7 +13617,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13654,7 +13654,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13691,7 +13691,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13764,7 +13764,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -13801,7 +13801,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -14114,7 +14114,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -14151,7 +14151,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -14188,7 +14188,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -14225,7 +14225,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -14262,7 +14262,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -16973,7 +16973,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17010,7 +17010,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17047,7 +17047,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17084,7 +17084,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17121,7 +17121,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17158,7 +17158,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17195,7 +17195,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17232,7 +17232,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17269,7 +17269,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17306,7 +17306,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17343,7 +17343,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17380,7 +17380,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17417,7 +17417,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17454,7 +17454,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17491,7 +17491,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17528,7 +17528,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17565,7 +17565,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17602,7 +17602,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17639,7 +17639,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17676,7 +17676,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17713,7 +17713,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17750,7 +17750,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17787,7 +17787,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17824,7 +17824,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17861,7 +17861,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17898,7 +17898,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17935,7 +17935,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -17972,7 +17972,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18009,7 +18009,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18046,7 +18046,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18083,7 +18083,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18120,7 +18120,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18157,7 +18157,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18194,7 +18194,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18231,7 +18231,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18268,7 +18268,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18305,7 +18305,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18342,7 +18342,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18379,7 +18379,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     },
@@ -18416,7 +18416,7 @@
         "text_access_status": "full_text",
         "rights_basis": "analysis_permitted",
         "semantic_screening": "ai_screened_keep",
-        "manual_signoff": "pending",
+        "manual_signoff": "保留",
         "map_note": "A text-place relation, not a reconstructed journey line. Geometry belongs to the named place."
       }
     }

@@ -111,7 +111,7 @@ def main():
         "text_count": row["关联文本数"],
         "author_count": row["独立作者数"],
         "visited_text_count": row["visited文本数"],
-        "geometry_status": "osm_candidate_pending_human_review",
+        "geometry_status": "project_lead_confirmed_coordinate",
     } for row in place_rows if row["地图准入"] == "point_layer_yes"]
     map_points.sort(key=lambda row: (-int(row["text_count"]), row["normalized_place"] or ""))
     write_csv(

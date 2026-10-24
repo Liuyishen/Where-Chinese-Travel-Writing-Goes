@@ -19,7 +19,8 @@
       "2010s": 16,
       "2020s": 31
     },
-    "manual_signoff_pending": 161
+    "manual_signoff_confirmed": 161,
+    "manual_signoff_pending": 0
   },
   "fulltext_entities": {
     "public_entity_features": 125,

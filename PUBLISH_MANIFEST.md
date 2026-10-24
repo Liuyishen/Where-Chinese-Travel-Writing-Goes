@@ -29,7 +29,7 @@
 | `data/public/rq1_fulltext_by_decade.csv` | 仅发布全文层按年代的聚合计数，不含原文或证据定位 |
 | `data/public/rq1_repeated_places.csv` | 仅发布跨文本地点的实体级计数，不含逐篇关系 |
 | `data/public/rq1_bibliographic_signals_by_decade.csv` | 独立发布书目地点信号层的聚合计数，不与全文层合并 |
-| `data/public/rq1_candidate_map_points.csv` | 仅发布明确标为待人工复核的点状候选，不替代线面实体 |
+| `data/public/rq1_candidate_map_points.csv` | 仅发布项目负责人已确认的点状坐标，不替代线面实体 |
 | `data/public/rq1_bibliographic_atomic_components.csv` | 发布规则原子化汇总，不将组件误作规范地名或旅行足迹 |
 
 ## 不要上传

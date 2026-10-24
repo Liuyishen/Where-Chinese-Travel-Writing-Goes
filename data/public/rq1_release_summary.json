@@ -1,11 +1,16 @@
 {
-  "release_date": "2026-10-24",
+  "release_date": "2026-10-25",
   "fulltext_layer": {
     "verified_texts": 107,
     "text_place_relations": 487,
     "normalized_place_entities": 438,
     "repeated_place_entities": 35,
     "candidate_map_points": 83,
+    "project_lead_signoff": {
+      "retained_relationships": 479,
+      "paused_relationships": 8,
+      "status": "completed"
+    },
     "rights_boundary": "Counts derive from manually coded research records; no full texts are released. Internal analysis permission, where present, is not a public redistribution licence."
   },
   "semantic_hold_sensitivity": {

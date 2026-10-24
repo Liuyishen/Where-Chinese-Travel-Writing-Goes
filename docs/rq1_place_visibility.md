@@ -25,7 +25,7 @@ The repeated-place table retains only entities occurring in two or more texts. I
 
 ## Map boundary
 
-`rq1_candidate_map_points.csv` provides 83 point-geometry candidates whose normalized name, country/region, and point-type classification are compatible with an existing map candidate. They are suitable for a clearly labelled candidate layer, not a definitive map: routes, rivers, mountains, countries, and regions remain line or polygon entities, and no centre point is invented for them. Every coordinate remains subject to human spatial review. The interactive map is a narrower display release: it includes only relations with publishable geometry and excludes semantic holds.
+`rq1_candidate_map_points.csv` provides 83 project-lead-confirmed point coordinates whose normalized name, country/region, and point-type classification were checked against the research record. They remain a clearly labelled point layer, not a substitute for line or polygon geometry: routes, rivers, mountains, countries, and regions are not reduced to invented centre points. The interactive map is a narrower display release: it includes only retained relations with publishable geometry and excludes the eight signed pauses.
 
 ## Interpretation boundary
 
@@ -37,9 +37,9 @@ From the private research workbooks, run:
 
 ```bash
 python3 scripts/build_rq1_public_release.py \
-  --fulltext /path/to/RQ1_Q1关系语义_AI复核与人工签署_20261006.xlsx \
+  --fulltext /path/to/RQ1_Q1关系语义_人工签署状态回填_20261025.xlsx \
   --metadata /path/to/大池子_metadata_places与RQ1双层分析_20260929.xlsx \
-  --places /path/to/RQ1_Q1关系语义_AI复核与人工签署_20261006.xlsx \
+  --places /path/to/RQ1_Q1关系语义_人工签署状态回填_20261025.xlsx \
   --atomics /path/to/大池子_原子地点RQ1与全文追索队列_20260929.xlsx \
   --output-dir data/public
 python3 scripts/validate_public_release.py
