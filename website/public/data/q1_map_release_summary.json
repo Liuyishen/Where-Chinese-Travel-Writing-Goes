@@ -1,0 +1,32 @@
+{
+  "release": "2026-10-06",
+  "fulltext_relations": {
+    "total_canonical_relations": 487,
+    "mapped_public_relations": 161,
+    "excluded": {
+      "no_publishable_geometry": 318,
+      "semantic_hold": 8
+    },
+    "by_place_status": {
+      "imagined_or_compared": 6,
+      "mentioned": 12,
+      "visited": 143
+    },
+    "by_era": {
+      "1980s": 37,
+      "1990s": 36,
+      "2000s": 41,
+      "2010s": 16,
+      "2020s": 31
+    },
+    "manual_signoff_pending": 161
+  },
+  "fulltext_entities": {
+    "public_entity_features": 125,
+    "boundary": "Entity layer only. This is not an author-visit map until joined to reviewed text-place relations."
+  },
+  "metadata_signals": {
+    "public_signal_features": 210,
+    "boundary": "Metadata signals are not full-text, journey, or author-visit evidence."
+  }
+}
