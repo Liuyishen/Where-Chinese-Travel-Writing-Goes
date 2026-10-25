@@ -36,4 +36,4 @@ An entity absent from the frozen text layer may be absent from the archive becau
 
 ## Remaining work before a stronger Q1 claim
 
-The sign-off queue has been completed: 479 relations are retained and eight are paused. The next research step is a sensitivity analysis of author concentration and a broader comparable sampling frame before making a four-decade population claim.
+The sign-off queue has been completed: 479 relations are retained and eight are paused. The signed author-concentration sensitivity analysis is also complete: 30 of 32 repeated entities are cross-author, and leave-one-author-out results retain 24 to 32 repeated entities. A broader comparable sampling frame is still required before making a four-decade population claim.
