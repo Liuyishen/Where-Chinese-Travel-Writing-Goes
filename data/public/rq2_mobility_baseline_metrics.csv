@@ -1,0 +1,25 @@
+section,category,relation_count,share_of_retained_relations,share_of_visited_relations,definition
+relation_state,visited,404,0.843424,,"Signed retained text-place relations, not a count of journeys or destinations."
+relation_state,mentioned,61,0.127349,,"Signed retained text-place relations, not a count of journeys or destinations."
+relation_state,imagined_or_compared,12,0.025052,,"Signed retained text-place relations, not a count of journeys or destinations."
+relation_state,uncertain,2,0.004175,,"Signed retained text-place relations, not a count of journeys or destinations."
+mobility_mode_all_relations,road,146,0.304802,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,road,144,,0.356436,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,walking,107,0.223382,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,walking,106,,0.262376,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,air,56,0.11691,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,air,56,,0.138614,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,water,22,0.045929,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,water,21,,0.05198,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,rail,21,0.043841,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,rail,20,,0.049505,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,fieldwork_or_reporting,14,0.029228,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,fieldwork_or_reporting,14,,0.034653,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,migration_or_residence,5,0.010438,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,migration_or_residence,5,,0.012376,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,border_crossing,2,0.004175,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,border_crossing,1,,0.002475,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,running,2,0.004175,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,running,2,,0.00495,Coded mode among signed retained visited relations only.
+mobility_mode_all_relations,unspecified,104,0.217119,,Coded mode attached to a retained text-place relation; repeated relations may belong to one narrated trip.
+mobility_mode_visited_relations,unspecified,35,,0.086634,Coded mode among signed retained visited relations only.

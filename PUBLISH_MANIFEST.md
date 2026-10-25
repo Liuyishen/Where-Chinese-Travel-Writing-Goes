@@ -15,6 +15,8 @@
 | `docs/rq1_place_visibility.md` | RQ1 的当前证据、分母与解释边界 |
 | `docs/rq1_findings_20261024.md` | RQ1 冻结档案的地点可见性结论、分母与审计边界 |
 | `docs/rq1_author_concentration_20261025.md` | RQ1 作者集中度检验、图表与解释边界 |
+| `docs/rq2_mobility_narration_20261025.md` | RQ2 已签署移动与叙事顺序基线、图表与解释边界 |
+| `scripts/build_q2_mobility_baseline_release_20261025.py` | 从私有签署工作簿生成 Q2 聚合基线与图表 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
@@ -36,6 +38,11 @@
 | `data/public/rq1_leave_one_author_out.csv` | 仅发布逐作者的聚合敏感性结果，不含篇目或正文 |
 | `data/public/rq1_author_concentration_summary.json` | 仅发布作者集中度的机器可读汇总 |
 | `docs/figures/q1_*_20261025.svg` | RQ1 可复核图表，不含文本、书名或来源链接 |
+| `data/public/rq2_mobility_baseline_metrics.csv` | 仅发布签署关系的移动方式与地点状态聚合，不含篇目或正文 |
+| `data/public/rq2_mobility_by_era.csv` | 仅发布档案内年代分层聚合，不作总体趋势推断 |
+| `data/public/rq2_narrative_sequence_coverage.csv` | 仅发布路线顺序字段覆盖与相邻叙事转换总数，不发布路线或文本级序列 |
+| `data/public/rq2_mobility_summary.json` | 仅发布 Q2 机器可读汇总与解释边界 |
+| `docs/figures/q2_*_20261025.svg` | RQ2 可复核图表，不含文本、书名或来源链接 |
 
 ## 不要上传
 

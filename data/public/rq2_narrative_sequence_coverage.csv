@@ -1,0 +1,6 @@
+metric,value,definition
+signed_retained_relations,479,Q2 signed relation denominator.
+texts_with_any_ordered_node,78,Texts with at least one numeric narrative route-order field.
+ordered_relation_rows,249,Retained relation rows carrying a numeric route-order field.
+texts_with_two_or_more_ordered_nodes,69,Texts supporting at least one ordered narrative transition.
+conservative_adjacent_narrative_transitions,160,Sum of distinct ordered nodes minus one within each eligible text; not a verified transport network.

@@ -1,0 +1,34 @@
+{
+  "release_date": "2026-10-25",
+  "signed_relation_universe": 487,
+  "retained_relations": 479,
+  "paused_relations": 8,
+  "visited_relations": 404,
+  "non_arrival_relations": 75,
+  "visited_relations_with_explicit_mobility_mode": 369,
+  "relation_states": {
+    "visited": 404,
+    "imagined_or_compared": 12,
+    "mentioned": 61,
+    "uncertain": 2
+  },
+  "mobility_modes": {
+    "air": 56,
+    "unspecified": 104,
+    "rail": 21,
+    "water": 22,
+    "fieldwork_or_reporting": 14,
+    "walking": 107,
+    "road": 146,
+    "migration_or_residence": 5,
+    "border_crossing": 2,
+    "running": 2
+  },
+  "narrative_sequence_coverage": {
+    "texts_with_any_ordered_node": 78,
+    "ordered_relation_rows": 249,
+    "texts_with_two_or_more_ordered_nodes": 69,
+    "conservative_adjacent_narrative_transitions": 160
+  },
+  "interpretation_boundary": "Counts are relation-level coded evidence in the frozen archive. They do not count trips, reconstruct routes, or establish historical population trends."
+}
