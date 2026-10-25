@@ -14,7 +14,9 @@ Of 438 normalized entities, 403 occur in one text only. Only 35 occur in two or 
 
 The current archive therefore does not support a claim that one destination dominates Chinese travel writing. Its stronger result is a long tail of specific encounters, with limited cross-author recurrence. Repetition within one author's work is not treated as broad cultural visibility; the public repeated-place table reports both text and author counts for this reason.
 
-This conclusion is stable under the current semantic-hold sensitivity check. Removing eight relationships that remain on hold leaves 479 relations, 32 repeated entities, and 30 cross-author repeated entities; the leading recurrent places do not change. This is a robustness check on the frozen archive, not a substitute for completing human review.
+This conclusion is stable under the signed-pause sensitivity check. Removing the eight paused relationships leaves 479 relations, 32 repeated entities, and 30 cross-author repeated entities; the leading recurrent places do not change. This is a robustness check on the frozen archive, not a substitute for a broader sampling frame.
+
+The signed author-concentration check reaches the same conclusion with a stricter control: 30 of the 32 repeated entities involve at least two authors, while a leave-one-author-out test leaves 24 to 32 repeated entities. Raw relation rows are more concentrated than entity recurrence, so Q1 reports author count alongside text count. See [the full author-concentration analysis](rq1_author_concentration_20261025.md).
 
 ## Finding 2: place visibility is not equivalent to arrival
 

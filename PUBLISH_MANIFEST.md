@@ -14,6 +14,7 @@
 | `scripts/build_rq1_public_release.py` | 从私有 RQ1 工作簿生成可公开的聚合结果 |
 | `docs/rq1_place_visibility.md` | RQ1 的当前证据、分母与解释边界 |
 | `docs/rq1_findings_20261024.md` | RQ1 冻结档案的地点可见性结论、分母与审计边界 |
+| `docs/rq1_author_concentration_20261025.md` | RQ1 作者集中度检验、图表与解释边界 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
@@ -31,6 +32,10 @@
 | `data/public/rq1_bibliographic_signals_by_decade.csv` | 独立发布书目地点信号层的聚合计数，不与全文层合并 |
 | `data/public/rq1_candidate_map_points.csv` | 仅发布项目负责人已确认的点状坐标，不替代线面实体 |
 | `data/public/rq1_bibliographic_atomic_components.csv` | 发布规则原子化汇总，不将组件误作规范地名或旅行足迹 |
+| `data/public/rq1_author_concentration_sensitivity.csv` | 仅发布作者集中度与敏感性聚合指标，不含篇目或正文 |
+| `data/public/rq1_leave_one_author_out.csv` | 仅发布逐作者的聚合敏感性结果，不含篇目或正文 |
+| `data/public/rq1_author_concentration_summary.json` | 仅发布作者集中度的机器可读汇总 |
+| `docs/figures/q1_*_20261025.svg` | RQ1 可复核图表，不含文本、书名或来源链接 |
 
 ## 不要上传
 

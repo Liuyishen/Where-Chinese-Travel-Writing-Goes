@@ -1,0 +1,22 @@
+{
+  "release_date": "2026-10-25",
+  "signed_relation_universe": 487,
+  "retained_relations": 479,
+  "paused_relations": 8,
+  "normalized_places": 433,
+  "recurrence_histogram": {
+    "1": 401,
+    "2": 22,
+    "3": 7,
+    "4": 3
+  },
+  "repeated_places": 32,
+  "cross_author_repeated_places": 30,
+  "single_author_repeated_places": 2,
+  "leave_one_author_out_repeated_place_range": [
+    24,
+    32
+  ],
+  "top_ten_author_relation_share": 0.415449,
+  "author_relation_hhi": 0.026303
+}
