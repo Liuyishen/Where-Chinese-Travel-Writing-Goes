@@ -30,7 +30,7 @@ Seventy-eight texts contain at least one numeric route-order field. Sixty-nine c
 
 The signed archive supports a defensible descriptive answer: authors write mobility chiefly through arrived-at places with explicit mode coding, while a smaller but analytically separate set of places functions as reference, comparison, or imagination. The current material can compare these coded layers within the archive and select ordered cases for close reading.
 
-It does not yet support a finished claim about which *themes* are associated with which places across every era. That next stage requires a consistent text-level theme and narrative-function codebook across all 107 texts, followed by manual review of selected text-place cases. Topic modelling or a network visualisation alone would not supply that interpretation.
+The subsequent text-level coding and project-lead sign-off are now complete. See [the signed theme, place-state, and narration profile](rq2_theme_narration_20261025.md) for the 107-text aggregation. That profile still treats themes as text-level, multi-label codes and does not turn a topic model or network visualisation into an interpretation by itself.
 
 ## Reproduction
 

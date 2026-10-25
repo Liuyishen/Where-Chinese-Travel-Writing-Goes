@@ -1,0 +1,30 @@
+{
+  "release_date": "2026-10-25",
+  "signed_texts": 107,
+  "signed_retained_relations": 479,
+  "signed_theme_labels": 310,
+  "theme_text_counts": {
+    "移动基础设施": 42,
+    "自我/情感": 46,
+    "劳动/生计": 12,
+    "人物相遇": 43,
+    "生态/环境": 6,
+    "消费/旅游业": 11,
+    "城市日常": 45,
+    "自然景观": 40,
+    "宗教/仪式": 4,
+    "战争/政治": 13,
+    "历史遗产": 39,
+    "边疆/民族": 9
+  },
+  "narrative_text_counts": {
+    "mixed": 11,
+    "新闻/田野报道": 14,
+    "现场观察": 26,
+    "移动行程": 43,
+    "历史文化解释": 2,
+    "回忆/停留": 6,
+    "人物相遇": 5
+  },
+  "interpretation_boundary": "Themes are text-level codes. Relation support joins every retained text-place relation to each signed theme on its parent text, so theme totals are intentionally non-exclusive and do not identify causal effects, trips, or population trends."
+}

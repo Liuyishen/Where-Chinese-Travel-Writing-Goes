@@ -1,0 +1,39 @@
+section,category,count,denominator,share,definition
+theme_texts,自然景观,40,107,0.373832,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,自然景观,193,479,0.402923,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,城市日常,45,107,0.420561,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,城市日常,177,479,0.36952,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,移动基础设施,42,107,0.392523,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,移动基础设施,217,479,0.453027,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,人物相遇,43,107,0.401869,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,人物相遇,178,479,0.371608,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,历史遗产,39,107,0.364486,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,历史遗产,152,479,0.317328,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,战争/政治,13,107,0.121495,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,战争/政治,41,479,0.085595,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,劳动/生计,12,107,0.11215,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,劳动/生计,35,479,0.073069,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,消费/旅游业,11,107,0.102804,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,消费/旅游业,40,479,0.083507,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,边疆/民族,9,107,0.084112,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,边疆/民族,40,479,0.083507,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,生态/环境,6,107,0.056075,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,生态/环境,41,479,0.085595,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,宗教/仪式,4,107,0.037383,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,宗教/仪式,16,479,0.033403,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+theme_texts,自我/情感,46,107,0.429907,Texts carrying this signed theme; texts may carry one to three themes.
+theme_relation_support,自我/情感,243,479,0.507307,Retained text-place relations attached to texts carrying this signed theme; not mutually exclusive across themes.
+narrative_texts,移动行程,43,107,0.401869,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,移动行程,174,479,0.363257,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,现场观察,26,107,0.242991,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,现场观察,110,479,0.229645,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,人物相遇,5,107,0.046729,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,人物相遇,14,479,0.029228,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,历史文化解释,2,107,0.018692,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,历史文化解释,38,479,0.079332,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,新闻/田野报道,14,107,0.130841,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,新闻/田野报道,42,479,0.087683,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,回忆/停留,6,107,0.056075,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,回忆/停留,28,479,0.058455,Retained text-place relations carried by texts with this signed narrative function.
+narrative_texts,mixed,11,107,0.102804,Texts with this signed primary narrative function; one function per text.
+narrative_relation_support,mixed,73,479,0.152401,Retained text-place relations carried by texts with this signed narrative function.
