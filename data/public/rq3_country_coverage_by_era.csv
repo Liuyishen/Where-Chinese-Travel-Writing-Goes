@@ -1,0 +1,6 @@
+era,signed_retained_relations,strict_country_weighted_relations,excluded_non_country_or_multi_relations,strict_country_units,strict_non_china_country_units,coverage_units_with_multi_country_sensitivity,non_china_units_with_multi_country_sensitivity,definition
+1980s,124,119,5,20,19,20,19,"Strict coverage uses only signed current-country units. Sensitivity adds multi-country components to unique coverage only, never to relation weights."
+1990s,66,64,2,17,16,17,16,"Strict coverage uses only signed current-country units. Sensitivity adds multi-country components to unique coverage only, never to relation weights."
+2000s,86,85,1,12,11,12,11,"Strict coverage uses only signed current-country units. Sensitivity adds multi-country components to unique coverage only, never to relation weights."
+2010s,80,78,2,5,4,5,4,"Strict coverage uses only signed current-country units. Sensitivity adds multi-country components to unique coverage only, never to relation weights."
+2020s,123,121,2,11,10,11,10,"Strict coverage uses only signed current-country units. Sensitivity adds multi-country components to unique coverage only, never to relation weights."

@@ -9,7 +9,7 @@ The project is research infrastructure, not a collection of full texts. It separ
 ## Public contents
 
 - A documented data model and controlled vocabularies.
-- Disclosure-safe RQ1 place-visibility and RQ2 mobility, theme, and narration aggregates.
+- Disclosure-safe RQ1 place-visibility, RQ2 mobility/theme/narration, and RQ3 country-coverage/concentration aggregates.
 - Scripts for making a metadata-only public release from a private workbook.
 - A reproducible workflow for identifiers, deduplication, and place evidence.
 - Citation information and a release checklist.
@@ -40,3 +40,7 @@ The 2026-10-25 frozen research snapshot records 107 canonically deduplicated tex
 ## Current RQ2 results
 
 The same signed relation layer supports a bounded analysis of narrated mobility: 404 retained relations are `visited`, and 369 of them carry an explicit mobility-mode code. Sixty-nine texts have two or more ordered narrative nodes, yielding 160 conservative adjacent narrative transitions for close-reading selection. A project-lead-signed, text-level coding layer now connects 107 texts' themes and primary narrative functions to the 479 retained relations: it is explicitly multi-label for themes and does not count trips or infer a transport network. See [the mobility baseline](docs/rq2_mobility_narration_20261025.md), [the signed theme and narration profile](docs/rq2_theme_narration_20261025.md), and `data/public/`.
+
+## Current RQ3 results
+
+After project-lead sign-off for all raw country/region values, the archive supports a bounded expansion-versus-concentration analysis. Its strict country-weighted layer has 467 relations across 43 country units. Non-China coverage is not monotonic across archive eras (19, 16, 11, 4, and 10 units); China accounts for 60.6% of strict country-weighted relations overall. These are archive profiles rather than claims about all Chinese travel writing or geopolitical core-periphery. See [the signed RQ3 profile](docs/rq3_expansion_concentration_20261026.md) and `data/public/`.

@@ -19,6 +19,10 @@ The 2026-10-03 release includes canonical text-level deduplication and corrected
 - `rq2_theme_mobility_matrix.csv`: retained-relation mobility support for each signed text-level theme; themes intentionally overlap.
 - `rq2_theme_place_state_matrix.csv`: retained-relation place-state support for each signed text-level theme; themes intentionally overlap.
 - `rq2_theme_narration_summary.json`: machine-readable summary and interpretation boundary for the signed Q2 theme/narration layer.
+- `rq3_country_coverage_by_era.csv`: signed country-unit coverage by archive era, with a multi-country coverage sensitivity field.
+- `rq3_country_concentration_by_era.csv`: strict country-weighted entropy, HHI, Gini, and concentration shares by archive era.
+- `rq3_country_concentration_sensitivity.csv`: comparison of all retained and visited-only country concentration profiles.
+- `rq3_country_summary.json`: machine-readable Q3 scope, totals, and interpretation boundary.
 - `rq1_bibliographic_signals_by_decade.csv`: separate counts for the larger bibliographic-signal layer.
 - `rq1_bibliographic_atomic_components.csv`: rule-based splitting totals for the 603 specific bibliographic signals; these are not normalized entities.
 - `rq1_release_summary.json`: release-wide totals and usage boundaries.

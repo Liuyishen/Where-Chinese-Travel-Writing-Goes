@@ -1,0 +1,6 @@
+era,relation_denominator,country_units,shannon_entropy,normalized_shannon_entropy,hhi,gini,top_1_share,top_3_share,china_share,definition
+1980s,119,20,1.608604,0.536965,0.428713,0.718067,0.647059,0.747899,0.647059,"Country distribution across strict weighted relations only; it is an archive profile, not a population trend."
+1990s,64,17,2.34093,0.826246,0.155273,0.492647,0.34375,0.515625,0.34375,"Country distribution across strict weighted relations only; it is an archive profile, not a population trend."
+2000s,85,12,1.900283,0.76473,0.246782,0.522549,0.458824,0.647059,0.458824,"Country distribution across strict weighted relations only; it is an archive profile, not a population trend."
+2010s,78,5,0.551401,0.342605,0.764629,0.687179,0.871795,0.948718,0.871795,"Country distribution across strict weighted relations only; it is an archive profile, not a population trend."
+2020s,121,11,1.275114,0.531764,0.440066,0.733283,0.636364,0.867769,0.636364,"Country distribution across strict weighted relations only; it is an archive profile, not a population trend."

@@ -1,0 +1,23 @@
+{
+  "release_date": "2026-10-26",
+  "signed_retained_relations": 479,
+  "strict_country_weighted_relations": 467,
+  "excluded_relations_by_scope_category": {
+    "缺失": 5,
+    "历史政体": 1,
+    "多国关系": 3,
+    "超国家区域": 3
+  },
+  "all_era_strict_concentration": {
+    "relation_denominator": 467,
+    "country_units": 43,
+    "shannon_entropy": 1.971303,
+    "normalized_shannon_entropy": 0.524115,
+    "hhi": 0.375888,
+    "gini": 0.769982,
+    "top_1_share": 0.605996,
+    "top_3_share": 0.700214,
+    "china_share": 0.605996
+  },
+  "interpretation_boundary": "Coverage and concentration describe the frozen archive after project-lead-signed country treatment. Multi-country relations expand coverage only in sensitivity analysis and never receive invented fractional relation weights. Results are not population trends, geopolitical core-periphery claims, or counts of actual trips."
+}
