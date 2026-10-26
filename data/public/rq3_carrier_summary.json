@@ -1,0 +1,15 @@
+{
+  "release_date": "2026-10-26",
+  "canonical_texts": 107,
+  "strict_carrier_texts": 69,
+  "unresolved_or_reprint_texts": 38,
+  "carrier_text_counts": {
+    "报纸原刊": 42,
+    "文学期刊": 1,
+    "图书章节": 2,
+    "杂志": 3,
+    "数字新闻平台": 4,
+    "报纸网页档案": 17
+  },
+  "interpretation_boundary": "Carrier results describe the signed, confirmed-carrier subset only. Unresolved original carriers and reprint pages are excluded, so these results cannot estimate the media market or the full historical distribution of Chinese travel writing."
+}

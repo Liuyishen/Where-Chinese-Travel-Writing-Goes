@@ -21,6 +21,7 @@
 | `scripts/build_q2_theme_narration_release_20261025.py` | 从私有关系签署与主题签署工作簿生成 Q2 聚合结果 |
 | `docs/rq3_expansion_concentration_20261026.md` | RQ3 已签署国家覆盖与集中度结论、图表与解释边界 |
 | `scripts/build_rq3_expansion_concentration_release_20261026.py` | 从私有关系签署与国家/地区处理签署工作簿生成 Q3 聚合结果 |
+| `scripts/build_rq3_carrier_profile_release_20261026.py` | 从私有关系签署与载体签署工作簿生成 Q3 严格载体子集聚合结果 |
 | `.gitignore` | 排除私有数据、工作簿、缓存和密钥 |
 | `LICENSE-CODE` | 代码 MIT 许可 |
 | `LICENSE-DATA.md` | 数据与来源的使用边界 |
@@ -56,6 +57,10 @@
 | `data/public/rq3_country_concentration_sensitivity.csv` | 仅发布全部保留与 visited-only 的集中度敏感性结果 |
 | `data/public/rq3_country_summary.json` | 仅发布 Q3 国家口径、总量与解释边界 |
 | `docs/figures/rq3_*_20261026.svg` | RQ3 可复核图表，不含文本、书名或来源链接 |
+| `data/public/rq3_carrier_coverage_by_era.csv` | 仅发布确认原载类别覆盖和缺口计数，不含篇目或来源链接 |
+| `data/public/rq3_carrier_distribution_by_era.csv` | 仅发布严格确认载体子集的类别聚合，不作市场份额推断 |
+| `data/public/rq3_carrier_relation_support_by_era.csv` | 仅发布载体子集关联的关系支持聚合，不发布关系级证据 |
+| `data/public/rq3_carrier_summary.json` | 仅发布载体子集总量与解释边界 |
 | `docs/figures/q2_*_20261025.svg` | RQ2 可复核图表，不含文本、书名或来源链接 |
 
 ## 不要上传

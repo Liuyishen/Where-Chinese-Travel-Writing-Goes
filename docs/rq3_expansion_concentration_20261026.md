@@ -30,7 +30,15 @@ The archive supports a bounded answer: its geographic world is not a steadily wi
 
 It does **not** identify a geopolitical “core” and “periphery.” That claim needs a separately specified and signed theoretical classification, rather than treating high frequency as geopolitical centrality. Nor does it establish a historical population trend or count actual journeys.
 
-The broader project question about changes by publication medium remains a separate evidence gap: 33 of 107 texts lack a confirmed original carrier, and confirmed carriers are not yet consistently typed across print, web, magazine, book chapter, and reprint. This release therefore makes no medium-effect claim.
+## Confirmed-carrier profile: a conditional media comparison
+
+All 107 texts now have project-lead-signed carrier coding. Sixty-nine have a confirmed original-carrier category and enter the strict media subset; 38 are original-carrier unresolved or available only via a reprint page, so are excluded rather than guessed.
+
+![Confirmed carrier types](figures/rq3_carrier_types_20261026.svg)
+
+Within the confirmed subset, the 1980s, 1990s, and 2000s are dominated by newspaper originals (13 of 15, 17 of 18, and 12 of 12 strict-carrier texts). The 2010s contain five newspaper web-archive texts, three magazine texts, and two digital-news texts; the 2020s contain 12 newspaper web-archive texts and two digital-news texts. This identifies a change in the archive's confirmed carrier *forms*, but not a market-wide transition from print to digital: a newspaper web archive can preserve a print-origin text, and strict-carrier coverage varies from 85.7% of 1990s texts to 50.0% of 2010s texts.
+
+The carrier result is therefore conditional, not a claim about the whole historical publishing ecology. It is nevertheless usable for future sampling: the second corpus batch should specifically recover original carriers for the 38 unresolved/reprint cases and add independently verified magazine, book-chapter, and digital-native texts.
 
 ## Reproduction
 
@@ -42,4 +50,4 @@ python3 scripts/build_rq3_expansion_concentration_release_20261026.py \
   --figure-dir docs/figures
 ```
 
-The public aggregates are `rq3_country_coverage_by_era.csv`, `rq3_country_concentration_by_era.csv`, `rq3_country_concentration_sensitivity.csv`, and `rq3_country_summary.json`.
+The public aggregates are `rq3_country_coverage_by_era.csv`, `rq3_country_concentration_by_era.csv`, `rq3_country_concentration_sensitivity.csv`, `rq3_country_summary.json`, `rq3_carrier_coverage_by_era.csv`, `rq3_carrier_distribution_by_era.csv`, `rq3_carrier_relation_support_by_era.csv`, and `rq3_carrier_summary.json`.

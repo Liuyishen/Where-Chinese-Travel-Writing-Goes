@@ -23,6 +23,10 @@ The 2026-10-03 release includes canonical text-level deduplication and corrected
 - `rq3_country_concentration_by_era.csv`: strict country-weighted entropy, HHI, Gini, and concentration shares by archive era.
 - `rq3_country_concentration_sensitivity.csv`: comparison of all retained and visited-only country concentration profiles.
 - `rq3_country_summary.json`: machine-readable Q3 scope, totals, and interpretation boundary.
+- `rq3_carrier_coverage_by_era.csv`: confirmed original-carrier coverage and unresolved/reprint count by archive era.
+- `rq3_carrier_distribution_by_era.csv`: carrier-category distribution among strict confirmed-carrier texts only.
+- `rq3_carrier_relation_support_by_era.csv`: retained relation support attached to strict confirmed-carrier texts.
+- `rq3_carrier_summary.json`: machine-readable carrier totals and interpretation boundary.
 - `rq1_bibliographic_signals_by_decade.csv`: separate counts for the larger bibliographic-signal layer.
 - `rq1_bibliographic_atomic_components.csv`: rule-based splitting totals for the 603 specific bibliographic signals; these are not normalized entities.
 - `rq1_release_summary.json`: release-wide totals and usage boundaries.
