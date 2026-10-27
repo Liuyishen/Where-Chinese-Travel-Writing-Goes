@@ -43,7 +43,7 @@ export default function Home() {
   const render = (f: Feature, source: string, i: number) => {
     const cls = "geo-feature " + source + " " + value(f.properties.place_status || "entity");
     const props = { className: cls, onClick: () => setActive(f), role: "button", tabIndex: 0, "aria-label": place(f) };
-    if (f.geometry.type === "Point") { const p = xy(f.geometry.coordinates); return <g key={source + i} {...props}><circle className="hit" cx={p[0]} cy={p[1]} r="10"/><circle className="marker-ring" cx={p[0]} cy={p[1]} r="4.2"/><circle className="marker" cx={p[0]} cy={p[1]} r="2"/><title>{place(f)}</title></g>; }
+    if (f.geometry.type === "Point") { const p = xy(f.geometry.coordinates); return <g key={source + i} {...props}><circle className="hit" cx={p[0]} cy={p[1]} r="10"/><circle className="marker-ring" cx={p[0]} cy={p[1]} r="2.35"/><title>{place(f)}</title></g>; }
     if (f.geometry.type === "LineString") return <path key={source + i} {...props} d={line(f.geometry.coordinates as unknown[])}/>;
     if (f.geometry.type === "Polygon") return <path key={source + i} {...props} d={(f.geometry.coordinates as unknown[]).map(r => line(r as unknown[]) + " Z").join(" ")}/>;
     if (f.geometry.type === "MultiPolygon") return <path key={source + i} {...props} d={(f.geometry.coordinates as unknown[]).map(poly => (poly as unknown[]).map(r => line(r as unknown[]) + " Z").join(" ")).join(" ")}/>;
