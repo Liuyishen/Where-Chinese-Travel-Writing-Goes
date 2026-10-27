@@ -4,17 +4,20 @@ This directory contains the bilingual interactive front end for **Where Chinese-
 
 ## What the current version contains
 
-- An English-first interface with a Chinese toggle.
-- A full-text **text × place relation** layer. It currently publishes only rows
-  that have a use-permitted full text, an AI semantic keep decision, and a
-  publishable geometry for the named place.
-- A separate canonical **place-entity inventory** layer.
-- A toggleable, separately styled **bibliographic place-signal** layer. It is
-  never represented as authorial arrival or route evidence.
-- Filters for decade, relation type, place type, country/region text, and (for
-  bibliographic signals) evidence grade.
-- Evidence cards that retain the relation category, source record, and the
-  boundary of each layer.
+- An English-first research archive with a Chinese toggle and a coherent reading
+  path from research questions to findings, method, limits, and public data.
+- Signed RQ1 findings on place recurrence and author-concentration sensitivity;
+  signed RQ2 findings on relation state, mobility, theme, and narrative
+  function; and signed RQ3 findings on country coverage, concentration, and
+  confirmed publication carriers.
+- An interactive public-geometry map with a full-text **text × place relation**
+  layer, a separate canonical **place-entity inventory**, and a separately
+  styled bibliographic place-signal layer.
+- Evidence cards and stated denominators throughout. The map only includes
+  relationships with publishable geometry; archive-level findings can therefore
+  have a larger denominator than the visual map.
+- Direct links to versioned public data, method notes, scripts, and the release
+  history in the repository.
 
 ## Important boundary
 
@@ -38,4 +41,6 @@ point relations. Lines and polygons retain the geometry of the named place.
 
 Install the declared dependencies, then run `npm run dev`. Build with `npm run build`.
 
-For production, connect this directory to a JavaScript-capable host such as Cloudflare Pages or Vercel. GitHub Pages alone is not the intended target for the current framework.
+The public release is deployed through the repository's GitHub Pages workflow.
+The client uses relative data URLs so its map data also resolves under the Pages
+project subpath.
